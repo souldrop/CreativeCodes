@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 const image1 = new Image ();
 image1.src = '';
  
-image1.onload = fuction initialize() {
+image1.onload = function initialize() {
     canvas.width = image.width;
     canvas.height = image.height;
     ctx.drawImage(image1,0,0);
